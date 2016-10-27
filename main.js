@@ -17,8 +17,12 @@
 
   //================================
   // Your code here
-
-
+  var string;
+  
+for (var i = 0; i < books.length; i++) {
+  string = books[i].title + ' by ' + books[i].author + ' (' + books[i].year + ')';
+  appendListItem(string);
+}
 
   //================================
 
